@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars from appearing */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+}
+
+#gameCanvas {
+    display: block; 
+    width: 100vw;  
+    height: 100vh;  
+    object-fit: contain; 
+}
+
